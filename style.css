@@ -4,7 +4,7 @@ body {
 }
 
 
-.navstyle {
+.col-navstyle {
     height: 100%;
     width: 250px;
     position: fixed;
@@ -93,11 +93,8 @@ h1 {
     margin-top: 100px;
 }
 
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 800px) {
+    [class*= "col-"] {
+        width: 50%
+    }
+}
